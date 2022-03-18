@@ -2,7 +2,6 @@ package livraria.action;
 
 import livraria.entity.Livro;
 import livraria.service.LivroService;
-import livraria.action.Action;
 
 /**
  * Abre o formulário de cadastro de livros

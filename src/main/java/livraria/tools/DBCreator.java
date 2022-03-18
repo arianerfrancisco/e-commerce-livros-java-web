@@ -7,6 +7,7 @@ import livraria.entity.Usuario;
 import livraria.dao.DAOFactory;
 import livraria.util.HibernateUtil;
 
+
 public class DBCreator {
 	
 	public static void main(String[] args) throws Exception {

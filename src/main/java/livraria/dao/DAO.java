@@ -6,7 +6,6 @@ import java.util.List;
 import org.hibernate.HibernateException;
 import org.hibernate.query.Query;
 import org.hibernate.Session;
-
 import livraria.util.HibernateUtil;
 
 public abstract class DAO<T> {

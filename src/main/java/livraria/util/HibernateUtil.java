@@ -16,6 +16,7 @@ public class HibernateUtil {
 	
 	public static Session getSession() {
 		return sf.getCurrentSession();
+		//return sf.openSession();
 	}
 	
 	public static void beginTransaction() {

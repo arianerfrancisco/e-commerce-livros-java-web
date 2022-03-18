@@ -16,6 +16,7 @@ public class DAOFactory {
 	
 	public <T extends DAO<?>> T getDAO(Class<T> clazz) throws DAOException {
 		try {
+			@SuppressWarnings("deprecation")
 			T dao = clazz.newInstance();
 			return dao;
 		} catch (InstantiationException e) {
